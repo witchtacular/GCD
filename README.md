@@ -2,11 +2,11 @@ GCD
 ===
 
 Greatest Common Divisors
+// GCD Function 
 
-{
 int GCD(int a, int b) //integer values a and b 
 {
-  while(1)
+	while(1)
 	{
 		a=(a%b); // first a mod b, if a equals zero then b
 		if(a==0)
@@ -17,5 +17,4 @@ int GCD(int a, int b) //integer values a and b
 			return a; 
 	}
 	
-}
 }
