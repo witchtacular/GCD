@@ -3,7 +3,7 @@ GCD
 
 Greatest Common Divisors
 
-
+{
 int GCD(int a, int b) //integer values a and b 
 {
   while(1)
@@ -17,4 +17,5 @@ int GCD(int a, int b) //integer values a and b
 			return a; 
 	}
 	
+}
 }
